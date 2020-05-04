@@ -27,65 +27,65 @@
       <!-- Timeblocks -->
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">9AM</span>
+            <span class="time">9 AM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="9"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">10AM</span>
+            <span class="time">10 AM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="10"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">11AM</span>
+            <span class="time">11 AM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="11"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">12PM</span>
+            <span class="time">12 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="12"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">1PM</span>
+            <span class="time">1 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="13"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">2PM</span>
+            <span class="time">2 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="14"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">3PM</span>
+            <span class="time">3 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="15"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">4PM</span>
+            <span class="time">4 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="16"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
       <div class="row time-block">
         <div class="hour col-md-2">
-            <span class="time">5PM</span>
+            <span class="time">5 PM</span>
         </div>
-        <textarea class="form-control col-md-9"></textarea>
+        <textarea class="form-control col-md-9" id="17"></textarea>
         <button class="saveBtn col-md-1 btn btn-primary btn-lg">Save</button>
       </div>
     </div>
@@ -95,13 +95,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!--Moment JS-->
     <script src="assets/moment.js"></script>
+    <!--Moment JS-->
+    <script src="assets/javascript.js"></script>
 
     <script type="text/javascript">
-      // Display current date using Moment JS
-      var currentMoment = moment().format("dddd MMMM Do")
-      $("#currentDay").text(currentMoment);
-
-
+      // Display current date using Moment JS & JQuery
+      var currentDate = moment().format("dddd MMMM Do")
+      $("#currentDay").text(currentDate);
     </script>
   </body>
 </html>
